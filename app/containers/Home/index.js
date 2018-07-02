@@ -206,7 +206,7 @@ export class Home extends React.Component { // eslint-disable-line react/prefer-
               <Link to='search/barnett'> <Button> Learn More </Button> </Link>
             </SectionHalf>
             <SectionHalf>
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/SdSuucWBAoU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/SdSuucWBAoU" frameborder="0" allowfullscreen></iframe>
             </SectionHalf>
           </WrapperCenter>
 
@@ -222,7 +222,21 @@ export class Home extends React.Component { // eslint-disable-line react/prefer-
               <Link to='search/excalibur'> <Button> Learn More </Button> </Link>
               <br /> <br />
             </SectionHalf>
-          </WrapperCenter>
+           </WrapperCenter>
+
+              <WrapperCenter style={{ flexWrap: 'wrap' }}>
+                <SectionHalf>
+                  <br />
+                  <H> Mission Cowssbows </H>
+                  <hr />
+                  <p> First and foremost, we are hunters. </p>
+                  <p> We look through our hunting lens to identify the ways to modernize crossbow design and optimize performance.  Our CEO and Chief Engineer, Matt McPherson, and his team bring over 50 years of archery and design experience to this endeavor, while our state-of-the-art manufacturing ensures their vision is executed to the highest standards of quality and craftsmanship. </p>
+                  <Link to='search/excalibur'> <Button> Learn More </Button> </Link>
+                </SectionHalf>
+                <SectionHalf>
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/G36Y1HLDgAY" frameborder="0" allowFullScreen></iframe>
+                </SectionHalf>
+              </WrapperCenter>
         </BodyContainer>
 
         {/* 
