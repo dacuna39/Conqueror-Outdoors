@@ -11,7 +11,7 @@ const SelectCSS = styled.select`
 
 const Select = (props) => (
 	<div className="form-group">
-		<label> {props.name} &nbsp;</label>
+		<div> {props.name} &nbsp;</div>
 		<SelectCSS
 			name={props.name}
 			value={props.selectedOption}

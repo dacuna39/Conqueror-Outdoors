@@ -81,6 +81,11 @@ export class ProductPage extends React.Component { // eslint-disable-line react/
       option3: 'opt[2]',
       option4: 'opt[3]',
       option5: 'opt[4]',
+      option6: 'opt[5]',
+      option7: 'opt[6]',
+      option8: 'opt[7]',
+      option9: 'opt[8]',
+      option10: 'opt[9]',
 
       quantity: '1',
 
@@ -152,6 +157,11 @@ export class ProductPage extends React.Component { // eslint-disable-line react/
         option3: opt[2],
         option4: opt[3],
         option5: opt[4],
+        option6: opt[5],
+        option7: opt[6],
+        option8: opt[7],
+        option9: opt[8],
+        option10: opt[9],
        })
       console.log('this.state.productforsale', this.state.productForSale)
      })
@@ -196,6 +206,11 @@ export class ProductPage extends React.Component { // eslint-disable-line react/
   handleOption3Select = (e) => { this.setState({ option3: e.target.value }) };
   handleOption4Select = (e) => { this.setState({ option4: e.target.value }) };
   handleOption5Select = (e) => { this.setState({ option5: e.target.value }) };
+  handleOption6Select = (e) => { this.setState({ option6: e.target.value }) };
+  handleOption7Select = (e) => { this.setState({ option7: e.target.value }) };
+  handleOption8Select = (e) => { this.setState({ option8: e.target.value }) };
+  handleOption9Select = (e) => { this.setState({ option9: e.target.value }) };
+  handleOption10Select = (e) => { this.setState({ option10: e.target.value }) };
 
   ///
 
@@ -310,6 +325,56 @@ export class ProductPage extends React.Component { // eslint-disable-line react/
           />
       );
     }
+    if (this.state.productForSale.options[5] != undefined) {
+      options.push(
+          <Select
+            name={this.state.productForSale.options[5].name}
+            options={this.state.productForSale.options[5].choices}
+            selectedOption={this.state.option6}
+            controlFunc={this.handleOption6Select}
+          />
+      );
+    }
+    if (this.state.productForSale.options[6] != undefined) {
+      options.push(
+          <Select
+            name={this.state.productForSale.options[6].name}
+            options={this.state.productForSale.options[6].choices}
+            selectedOption={this.state.option7}
+            controlFunc={this.handleOption7Select}
+          />
+      );
+    }
+    if (this.state.productForSale.options[7] != undefined) {
+      options.push(
+          <Select
+            name={this.state.productForSale.options[7].name}
+            options={this.state.productForSale.options[7].choices}
+            selectedOption={this.state.option8}
+            controlFunc={this.handleOption8Select}
+          />
+      );
+    }
+    if (this.state.productForSale.options[8] != undefined) {
+      options.push(
+          <Select
+            name={this.state.productForSale.options[8].name}
+            options={this.state.productForSale.options[8].choices}
+            selectedOption={this.state.option9}
+            controlFunc={this.handleOption9Select}
+          />
+      );
+    }
+    if (this.state.productForSale.options[9] != undefined) {
+      options.push(
+          <Select
+            name={this.state.productForSale.options[9].name}
+            options={this.state.productForSale.options[9].choices}
+            selectedOption={this.state.option10}
+            controlFunc={this.handleOption10Select}
+          />
+      );
+    }
 
     return options.map((renderOption, index) => {
       return (
@@ -354,8 +419,8 @@ export class ProductPage extends React.Component { // eslint-disable-line react/
             <RightSection>
               <H2> {this.state.productForSale.title} </H2>
 
-              <WrapperCenter>
-                <SectionSmall style={{background: 'none', minWidth: '45%', paddingLeft: '15%'}}>                 
+              <Wrapper>
+                <SectionSmall style={{background: 'none', minWidth: '45%', paddingLeft: '5%'}}>                 
                   {this.renderOptions()}
                 </SectionSmall>
 
@@ -363,7 +428,7 @@ export class ProductPage extends React.Component { // eslint-disable-line react/
                   <h3> Overview </h3>
                   <p> {this.state.productForSale.overview} </p>
                 </SectionSmall>
-              </WrapperCenter>
+              </Wrapper>
 
               <WrapperCenter>
                 <SectionSmall>

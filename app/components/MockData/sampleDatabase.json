@@ -5,7 +5,10 @@
         "options":[
             {"name":"Crossbow Configuration","choices":["Right Handed","Left Handed"]},
             {"name":"Draw Weight","choices":["45# Draw Weight","50# Draw Weight","55# Draw Weight","60# Draw Weight","65# Draw Weight","70# Draw Weight"]},
-            {"name":"Draw Length","choices":["25\" (AMO Standard Method","26\" (AMO Standard Method","27\" (AMO Standard Method","28\" (AMO Standard Method","25\" (AMO Standard Method","29\" (AMO Standard Method","30\" (AMO Standard Method"]}
+            {"name":"Draw Length","choices":["25\" AMO Standard Method","26\" AMO Standard Method","27\" AMO Standard Method","28\" AMO Standard Method","25\" AMO Standard Method","29\" AMO Standard Method","30\" AMO Standard Method"]},
+            {"name":"Fletching options","choices":["2\" Straight Vanes, Dark Colors","2\" Straight Vanes, Light Colors","4\" Straight Vanes, Dark Colors","4\" Straight Vanes, Light Colors"]},
+            {"name":"Arrows","choices":["Easton Helios 6-pack","Easton Helios 12-pack","Carbon Exp. Heritage 6-pack","Carbon Exp. Heritage 12-pack","Beman Centershot 6-pack","Beman Centershot 12-pack"]},
+            {"name":"Peep Sight","choices":["Small Fletcher-Style Peep","Medium Fletcher-Style Peep","Large Fletcher-Style Peep"]}
         ],
         "overview":"Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh.",
         "price":2562,
