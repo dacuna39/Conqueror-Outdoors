@@ -3,7 +3,6 @@ import { FormattedMessage } from 'react-intl';
 import styled from 'styled-components';
 import Link from 'components/Link';
 import 'uiw-iconfont/fonts/w-iconfont.css';
-//import {ModalContainer, ModalDialog} from 'react-modal-dialog';
 
 import Button from 'components/Button';
 import Modal from './Modal';
@@ -33,7 +32,6 @@ const HeaderText = styled.div`
   font-size: 100%;
   color: #fff;
 `;
-//background: #426e86;
 
 const P = styled.p`
   font-size: 2em;
